@@ -57,8 +57,8 @@ $ angelcake --runr greet
 
 You should see this output:
 
-```bash
-$ Hello World!
+```text
+Hello World!
 ```
 
 ## NOTE :scroll:
