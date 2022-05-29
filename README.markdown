@@ -1,7 +1,5 @@
 # ANGELCAKE :angel: :cake:
 
-![GitHub CI](https://github.com/iamtheblackunicorn/angelcake/actions/workflows/rust.yml/badge.svg) :angel: :cake:
-
 ***A tasty way to execute build tasks.*** :angel: :cake:
 
 ## ABOUT :books:
