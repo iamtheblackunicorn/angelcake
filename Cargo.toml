@@ -1,9 +1,28 @@
 [package]
 name = "angelcake"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+authors = ["Alexander Abraham <youreccentricity@outlook.com>"]
+description= "A tasty way to execute build tasks."
+homepage = "https://github.com/iamtheblackunicorn/angelcake"
+repository = "https://github.com/iamtheblackunicorn/angelcake"
+documentation = "https://github.com/iamtheblackunicorn/angelcake"
+readme = "README.markdown"
+keywords = [
+  "task",
+  "build"
+]
+categories = [
+  "command-line-utilities",
+  "development-tools",
+  "development-tools::cargo-plugins",
+  "development-tools::build-utils",
+  "development-tools::testing"
+]
+exclude = [
+  "/.github"
+]
 
 [dependencies]
 cleasy = "1.0.0"

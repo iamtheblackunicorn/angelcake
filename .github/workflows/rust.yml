@@ -1,0 +1,26 @@
+on: [push]
+name: Angelcake CI
+jobs:
+  build_and_test:
+    name: Angelcake CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+      - name: Compile a binary.
+        uses: actions-rs/cargo@v1
+        with:
+          command: build
+          args: --release
+      - name: Run the example file (short version).
+        uses: actions-rs/cargo@v1
+        with:
+          command: run
+          args: -- -r greet
+      - name: Run the example file (long version).
+        uses: actions-rs/cargo@v1
+        with:
+          command: run
+          args: -- --runr greet
