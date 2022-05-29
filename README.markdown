@@ -31,8 +31,8 @@ $ angelcake -v
 
 To use ***ANGELCAKE***, you will need to do two steps:
 
-- Create a `Cakefile` with build rules.
-- Instruct ***ANGELCAKE*** which build rules to run.
+- 1.) Create a `Cakefile` with build rules.
+- 2.) Instruct ***ANGELCAKE*** which build rules to run.
 
 ### Create a `Cakefile`
 
